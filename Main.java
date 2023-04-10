@@ -132,13 +132,13 @@ while(true) {
 	                
 	                switch (mailsecim) {
 	                    case 1:
-	                    	sendEmailTo.sendEmailTo("Elit üyeler için mail gönderimi.",1);
+	                    	//sendEmailTo.sendEmailTo("Elit üyeler için mail gönderimi.",1);
 	                    	break;
 	                    case 2:
-	                    	 sendEmailTo.sendEmailTo("Genel üyeler için mail gönderimi.",2); 
+	                    	// sendEmailTo.sendEmailTo("Genel üyeler için mail gönderimi.",2); 
 	                        break;
 	                    case 3:
-	                    	 sendEmailTo.sendEmailTo("Tüm üyelere mail gönderimi.",3);
+	                    	 //sendEmailTo.sendEmailTo("Tüm üyelere mail gönderimi.",3);
 	                    	 break;
 	                    default:
 	                        System.out.println("Geçersiz seçim...");
